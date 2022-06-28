@@ -35,10 +35,9 @@
     fill: #AFB1B8;
     background-color: #FFFFFF;
     transition: border-color 250ms var(--transition-cubic), fill 250ms var(--transition-cubic);
-}
-
-.clients__link:hover,
-.clients__link:focus {
-    fill: #2196F3;
-    border-color: #2196F3;
+    &:hover,
+    &:focus {
+        fill: #2196F3;
+        border-color: #2196F3;
+    }
 }

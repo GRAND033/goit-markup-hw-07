@@ -33,17 +33,20 @@
     color: rgba(255, 255, 255, 0.6);
     outline: none;
     transition: border-color 250ms var(--transition-cubic);
+    
+    &:focus {
+        border-color: #2196F3;
+    }
 }
 
 .foot__subscribe-input-mail::placeholder {
     font-size: 16px;
     line-height: 1.25;
-    color: rgba(255, 255, 255, 0.6)
+    color: rgba(255, 255, 255, 0.6);
+
 }
 
-.foot__subscribe-input-mail:focus {
-    border-color: #2196F3;
-}
+
 
 .foot__subscribe-form {
     display: flex;
@@ -69,10 +72,9 @@
 
     color: #FFFFFF;
     transition: background-color 250ms var(--transition-cubic);
-}
-
-.foot__subscribe-button:hover {
-    background-color: #2196F3
+    &:hover {
+        background-color: #2196F3
+    }
 }
 
 .foot__subscribe-button-icon {

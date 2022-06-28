@@ -76,13 +76,10 @@
     color: #AFB1B8;
     background-color: #FFFFFF;
     transition: fill 250ms var(--transition-cubic), background-color 250ms var(--transition-cubic);
-}
-
-
-.comand__soc-link:hover,
-.comand__soc-link:focus {
-    background-color: #2196F3;
-
+    &:hover,
+    &:focus {
+        background-color: #2196F3;
+    }
 }
 
 .comand__soc-link:hover .comand__soc-icon,
