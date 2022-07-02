@@ -3,11 +3,9 @@
 }
 
 .future__title {
+    @include font (36px, 700, 1.17);
     margin-bottom: 50px;
 
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
     text-align: center;
 
     color: var(--primary-text-color)
@@ -27,6 +25,7 @@
 }
 
 .future__text {
+    @include font (14px, 700, 1.14);
     position: absolute;
     left: 0;
     bottom: 0;
@@ -39,9 +38,6 @@
     text-transform: uppercase;
     color: #FFFFFF;
 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
     text-align: center;
 
 

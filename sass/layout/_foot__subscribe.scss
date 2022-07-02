@@ -4,24 +4,22 @@
 }
 
 .foot__subscribe-title {
+    @include font (14px, 700, 1.14);
     display: inline-block;
     margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+   
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 
 
 .foot__subscribe-input-mail {
+    @include font (16px, null, 1.25);
     width: 358px;
     height: 50px;
     padding: 15px 16px;
     margin-right: 12px;
-    font-size: 16px;
-    line-height: 1.25;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,8 +38,8 @@
 }
 
 .foot__subscribe-input-mail::placeholder {
-    font-size: 16px;
-    line-height: 1.25;
+    @include font (16px, null, 1.25);
+   
     color: rgba(255, 255, 255, 0.6);
 
 }
@@ -53,13 +51,11 @@
 }
 
 .foot__subscribe-button {
+    @include font (16px, 700, 1.88);
     cursor: pointer;
     width: 200px;
     height: 50px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-
+    
     display: inline-flex;
     justify-content: center;
     align-items: center;

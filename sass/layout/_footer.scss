@@ -4,29 +4,25 @@
 }
 
 .footer__logo {
+    @include font (26px, 700, 1.19);
     display: inline-block;
     margin-bottom: 20px;
 
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-
+    
     color: var(--logo)
 }
 
 .footer__logo-studia {
+    @include font (14px, null, 1.71);
     color: var(--footer-logo-studia)
 }
 
 .footer__address {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-
+    
     color: var(--address)
 }
 
@@ -49,9 +45,8 @@
 }
 
 .footer__item {
-    font-size: 14px;
-    line-height: 1.71;
-
+    @include font (14px, null, 1.71);
+    
     color: var(--address)
 }
 

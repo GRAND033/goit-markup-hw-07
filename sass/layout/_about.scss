@@ -27,23 +27,18 @@
 }
 
 .about__title-next {
+    @include font (14px, 700, 1.14);
     display: inline-block;
     margin-bottom: 10px;
 
-
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
     text-transform: uppercase;
     color: var(--primary-text-color)
 }
 
 .about__text {
+    @include font (14px, null, 1.71);
     display: inline-block;
 
     margin: bottom 10px;
-
-    font-size: 14px;
-    line-height: 1.71;
     color: var(--secondary-text-color)
 }

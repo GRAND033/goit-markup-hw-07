@@ -3,16 +3,14 @@
 }
 
 .header__logo {
+    @include font (26px, 700, 1.19);
     padding-top: 24px;
     padding-bottom: 25px;
     margin-right: 93px;
 
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-
+   
     color: var(--logo)
 }
 
@@ -21,11 +19,9 @@
 }
 
 .header__nav-link {
+    @include font (14px, 500, 1.14);
     display: flex;
 
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--header-nav-link)
 }
@@ -50,12 +46,10 @@
 }
 
 .header__item {
+    @include font (14px, 500, 1.14);
     list-style: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+   
     letter-spacing: 0.02em;
-
     color: var(--header-item)
 }
 
@@ -92,13 +86,11 @@
 
 
 .header__link {
+    @include font (14px, 500, 1.14);
     padding: 32px 0;
     align-items: center;
 
     text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
     letter-spacing: 0.02em;
 
     color: var(--header-link);
@@ -117,14 +109,12 @@
 }
 
 .header__tel {
+    @include font (14px, 500, 1.14);
     padding: 32px 0;
     margin-left: 10px;
 
     text-decoration: none;
     list-style: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
     letter-spacing: 0.02em;
 
     color: var(--header-tel);
